@@ -3,9 +3,15 @@ Esse código foi desenvolvido com o objetivo de colocar em prática os conhecime
 
 ## Elementos do código:
 --> Funcionamento do Java Script com CSS em um projeto React.js;
+
 --> Funcionamento de rotas em React.js;
+
 --> Utilização do JSX;
+
 --> Utilização de props;
+
 --> Funcionamento de Hooks do React.js;
+
 --> Utilização de um banco de dados fake, feito em Java Script;
+
 
