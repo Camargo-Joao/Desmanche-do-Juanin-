@@ -1,0 +1,23 @@
+.comment_form input {
+  outline: none;
+  border-radius: 5px;
+  padding-left: 0.3rem;
+  margin-right: 1rem;
+  border: 0.5px solid #0a0711;
+  width: 20%;
+  height: 2rem;
+}
+
+.comment_form button {
+  background-color: #fed224;
+  border: #0a0711 solid 2px;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.comment_form button:hover {
+  background-color: #0a071100;
+  border-color: #fed224;
+  cursor: pointer;
+}

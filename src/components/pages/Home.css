@@ -1,0 +1,45 @@
+.main_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.main_content div {
+  text-align: center;
+}
+
+.main_content div h1 {
+  font-family: "Lemonada", sans-serif;
+  font-size: 2em;
+  color: #0a0711;
+}
+
+.main_content div p {
+  font-family: "Lemonada", sans-serif;
+  font-size: 1em;
+}
+
+.action {
+  font-family: "Lemonada", sans-serif;
+  text-decoration: none;
+  background-color: #fed224;
+  padding: 0.5em;
+  border: #0a0711 solid 2px;
+  border-radius: 12px;
+  color: #0a0711;
+  transition: .2s;
+}
+
+.action:hover {
+    background-color: #fefefe;
+    border-color: #fed224;
+}
+
+.main_content img {
+  width: 20em;
+  margin-top: 2em;
+  border-radius: 100%;
+}

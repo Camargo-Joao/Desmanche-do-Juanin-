@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #bbc2d3;
+    padding: 0 3em;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header ul a {
+    margin-right: 1em;
+    color: #0a0711;
+    text-decoration: none;
+    font-family: 'Lemonada', sans-serif;
+    padding: .5em;
+    transition: .2s;
+}
+
+.header ul a:hover,
+.header ul a.active {
+    color: #fed224;
+    background-color: #8bbed6;
+    padding: .5em;
+    border-radius: 32px;
+}
+
+.navbar_logo {
+    width: 100px;
+}
