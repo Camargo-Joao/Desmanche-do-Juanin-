@@ -1,20 +1,14 @@
 import React from "react";
-import Image from "../layout/Image.js";
 
 import "./CommentList.css";
 
 const CommentList = (props) => {
   return (
-    <div className="comment_list">
+    <div className="comment">
       {props.comments.map((comments) => {
         return (
-          <ul className="comment_list_content">
-            <div className="perfil">
-              <li>Nome: Usuário</li>
-              <div className="perfil_image">
-                <Image src="/products/perfil.jpg" />
-              </div>
-            </div>
+          <ul>
+            <li>Nome: Usuário</li>
             <li>Comentário: {comments.text}</li>
           </ul>
         );

@@ -1,0 +1,29 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: baseline;
+    padding-top: 2rem;
+  }
+  
+  .formulario{
+    width: 85%;
+    margin-top: 2rem;
+    justify-items: center;
+  }
+  
+  .title {
+    font-size: x-large;
+  }
+  
+  .subtitle {
+    font-size: medium;
+  }
+  
+  @media (min-width: 1025px) {
+    .formulario {
+      width: 30%;
+      margin-top: 0;
+    }
+  }

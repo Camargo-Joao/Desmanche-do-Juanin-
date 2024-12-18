@@ -1,10 +1,16 @@
 .main_content {
-    width: 100%;
-    margin: 2em 1em;
+  width: 100%;
+  margin: 2em 1em;
 }
 
 .card_list {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+@media (min-width: 1025px) {
+  .card_list {
+    grid-template-columns: 25% 25% 25% 25%;
   }
+}

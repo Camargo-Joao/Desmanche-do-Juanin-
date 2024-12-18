@@ -1,17 +1,13 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../img/juanin_logo.png";
 import "./Navbar.css";
 
 function Navbar() {
-  const [activeIndex, setActiveIndex] = useState();
 
   return (
     <header className="header">
       <Link to="/">
-        <div>
-          <img src={logo} alt="Logo Desmanche" className="navbar_logo" />
-        </div>
+        <img src={logo} alt="Logo Desmanche" className="navbar_logo" />
       </Link>
       <ul>
         <li>

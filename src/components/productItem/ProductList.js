@@ -7,11 +7,12 @@ function ProductList(props) {
       <ul>
         {props.product.map((item) => (
           <ProductItem
-            id = {item.id}
-            image = {item.src}
-            name = {item.name}
-            description = {item.description}
-            preco = {item.preco}
+            key={item.id}
+            id={item.id}
+            image={item.src}
+            name={item.name}
+            description={item.description}
+            preco={item.preco}
           />
         ))}
       </ul>

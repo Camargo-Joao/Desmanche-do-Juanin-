@@ -6,22 +6,20 @@ import "./Contato.css";
 
 function Contato() {
   return (
-    <div className="corpo">
-      <div className="main-content">
-        <h1>Fique por dentro de tudo!</h1>
-        <h3>Fale com o Juanin!</h3>
-        <div>
-          <form>
-            <Input type="text" label="Nome:" />
+    <div className="main-content">
+      <h1 className="title">Fique por dentro de tudo!</h1>
+      <h3 className="subtitle">Fale com o Juanin!</h3>
+      <form className="formulario">
+        <Input type="text" label="Nome:" />
 
-            <Input type="mail" label="E-mail:" />
+        <Input type="mail" label="E-mail:" />
 
-            <Input type="number" label="Telefone:" />
+        <Input type="number" label="Telefone:" />
 
-            <Button path="/">Enviar</Button>
-          </form>
-        </div>
-      </div>
+        <Button path="/agradecimento" type="submit">
+          Enviar
+        </Button>
+      </form>
     </div>
   );
 }

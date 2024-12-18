@@ -1,43 +1,15 @@
-.comment_list {
-  margin-left: 0;
+.comment {
+  display: grid;
+  justify-items: center;
   width: 100%;
 }
 
-.comment_list_content {
-  margin-left: auto;
-  margin-right: auto;
+.comment ul {
   list-style: none;
   text-align: left;
   border-radius: 12px;
-  width: 70%;
-  margin-top: 0.5rem;
+  width: 90%;
   padding: 1rem;
   background-color: #8bbed6;
   color: #0a0711;
-}
-
-.comment_list_content li:first-child {
-  margin-bottom: 0.2rem;
-}
-
-.comment_list_content li:last-child {
-  margin-left: 1rem;
-}
-
-.perfil {
-  width: 100%;
-  height: 3rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-.perfil_image{
-  background-color: #0a0711;
-  border: 2px solid #0a0711;
-  border-radius: 13px;
-  margin: 0;
-  width: 5%;
-  z-index: 999;
 }

@@ -14,6 +14,7 @@ import Footer from "./components/layout/Footer";
 import Container from "./components/layout/Container";
 import Compras from "./components/pages/Compras";
 import ConclusaoPedido from "./components/pages/ConclusaoPedido";
+import Agradecimento from "./components/pages/Agradecimento";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/finalizar-compra">
             <ConclusaoPedido />
+          </Route>
+          <Route path="/agradecimento">
+            <Agradecimento />
           </Route>
         </Container>
         <Redirect to="/" />

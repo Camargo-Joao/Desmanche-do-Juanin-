@@ -1,5 +1,5 @@
 .footer {
-  padding: 3em;
+  padding: 3em 0 1em 0;
   background-color: #8bbed6;
   text-align: center;
 }
@@ -25,4 +25,8 @@
 .link:hover {
   font-size: 1.5em;
   color: #fed224;
+} 
+
+.dev {
+  font-size: x-small;
 }
