@@ -5,7 +5,7 @@ import ProductsData from "../data/ProductsData";
 function Pecas() {
   return (
     <div className="main_content">
-      <h1>Encontre suas peças!</h1>
+      <h1 className="title">Encontre suas peças!</h1>
       <ProductsData />
     </div>
   );

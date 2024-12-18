@@ -8,6 +8,7 @@ function CardList(props) {
       <ul className="card_list">
         {props.items.map((prod) => (
           <Card
+            key={prod.id}
             id={prod.id}
             image={prod.src}
             name={prod.name}

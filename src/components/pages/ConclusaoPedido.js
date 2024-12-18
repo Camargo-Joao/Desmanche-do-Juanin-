@@ -9,14 +9,14 @@ function random(a, b) {
 
 function ConclusaoPedido() {
   return (
-    <div className="main">
-      <div className="content">
-        <h1 className="title">Seu pedido foi agendado!</h1>
-        <h3>Período estimado de chedada - {random(6, 15)} dias úteis</h3>
-        <div className="buttons">
-          <Button path="/">Voltar para o menu</Button>
-          <Button path="/pecas">Realizar outra compra</Button>
-        </div>
+    <div className="conteudo">
+      <h1 className="title">Seu pedido foi agendado!</h1>
+      <h3 className="subtitle-2">
+        Período estimado de chedada - {random(6, 15)} dias úteis
+      </h3>
+      <div className="buttons">
+        <Button path="/">Voltar para o menu</Button>
+        <Button path="/pecas">Realizar outra compra</Button>
       </div>
     </div>
   );

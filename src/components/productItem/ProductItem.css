@@ -1,31 +1,32 @@
-.main-content-products {
+.conteudo {
   width: 100%;
+  justify-items: center;
   text-align: center;
-  margin-bottom: 5rem;
+  padding: 2rem 0 1rem 0;
 }
 
-.info-box {
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 10%;
-    justify-content: center;
+.title {
+  font-size: x-large;
 }
 
-.info-box h1 {
-    font-size: 25px;
-    margin-bottom: 5%;
+.conteudo ul {
+  margin: 2rem 0 2rem 0;
 }
 
-.info-box ul {
-  margin-bottom: 2%;
+.conteudo h3 {
+  margin-top: 2rem;
 }
 
 .image {
+  margin: 1rem 0 1rem 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
 }
 
-.image {
-  width: 35%;
+@media (min-width: 1024px) {
+  .image{
+    width: 40%;
+  }
 }
